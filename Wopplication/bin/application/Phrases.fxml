@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
 <?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PhrasesController">
    <children>
       <Pane layoutX="-100.0" layoutY="-116.0" prefHeight="500.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Text layoutX="207.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gag Phrases" />
+            <Text layoutX="163.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gag Phrases">
+               <font>
+                  <Font size="32.0" />
+               </font></Text>
+            <Button alignment="CENTER" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#goToHome" text="HomePage" />
          </children>
       </Pane>
    </children>

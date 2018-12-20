@@ -6,14 +6,13 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomeController">
    <children>
       <Pane prefHeight="200.0" prefWidth="207.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Button layoutX="68.0" layoutY="61.0" mnemonicParsing="false" text="Phrases" />
-            <Button layoutX="65.0" layoutY="100.0" mnemonicParsing="false" text="Random" />
-            <Button layoutX="61.0" layoutY="142.0" mnemonicParsing="false" text="Translator" />
+            <Button layoutX="68.0" layoutY="61.0" mnemonicParsing="false" onAction="#goToPhrases" text="Phrases" />
+            <Button layoutX="65.0" layoutY="100.0" mnemonicParsing="false" onAction="#goToRandom" text="Random" />
+            <Button layoutX="61.0" layoutY="142.0" mnemonicParsing="false" onAction="#goToTranslator" text="Translator" />
             <Text layoutX="31.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WOP Translator">
                <font>
                   <Font size="21.0" />

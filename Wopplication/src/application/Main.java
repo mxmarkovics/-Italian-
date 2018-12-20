@@ -31,18 +31,7 @@ public class Main extends Application {
 	        final Scene scene = new Scene(root);
 			window.setScene(scene);
 			window.show();
-			
-			long x = 0;
-			while (x < 1000000000) {
-				x++;
-			}
-			FXMLLoader loader = new FXMLLoader();
-			loader.setLocation(Main.class.getResource("application/Phrases.fxml"));
-			AnchorPane mainLayout = loader.load();
-			Scene Newscene = new Scene(mainLayout);
-			
-			window.setScene(Newscene);
-			window.show();
+
 
 		} catch(Exception e) {
 			e.printStackTrace();
