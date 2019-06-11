@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TranslatorController">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text layoutX="201.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Translation">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <TextArea layoutX="110.0" layoutY="150.0" prefHeight="200.0" prefWidth="276.0" />
+         </children>
+      </Pane>
+      <Button alignment="CENTER" layoutX="24.0" layoutY="24.0" mnemonicParsing="false" onAction="#goToHome" text="HomePage" />
+   </children>
+</AnchorPane>
